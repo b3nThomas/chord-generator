@@ -22,12 +22,10 @@ else {
 	var key = 0;
 }
 
-console.log(key)
 
 for (i = 0; chromScale[key][i] != rootInput; i++);
 var root = i;
 
-console.log(root)
 
 var chordType = {
 	"maj": [0, 4, 7], //Major
