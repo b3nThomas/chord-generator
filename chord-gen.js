@@ -1,14 +1,12 @@
-/*var rootInput = prompt("Type your root note below:", "Use CAPs for note then '#' for Sharp or 'b' for Flat!");
+var rootInput = prompt("Type your root note below:", "Use CAPs for note then '#' for Sharp or 'b' for Flat!");
 
 var chordInput = prompt("Select your chord type using the key below:\n[maj]   = Major (I III V)\n\
 [m]  = Minor (I IIIb V)\n[2]  = Suspended 2nd (I II V)\n[4]  = Suspended 4th (I IV V)\n\
 [o5] = Diminished 5th (I IIIb Vb)\n[+5] = Augmented 5th (I III V#)\n[6]  = 6th (I III V VI)\n\
 [m6] = Minor 6th (I IIIb V VI)\n[7]  = Dominant 7th (I III V VIIb)\n[m7] = Minor 7th (I IIIb V VIIb)\n\
 [M7] = Major 7th (I III V VII)\n[9]  = Dominant 9th (I III V VIIb IX)\n\
-[M9] = Major 9th (I III V VII IX)\n[m9] = Minor 9th (I IIIb V VIIb IX)");*/
+[M9] = Major 9th (I III V VII IX)\n[m9] = Minor 9th (I IIIb V VIIb IX)");
 
-var rootInput = "A"
-var chordInput = "maj"
 
 var chromScale = [
     ["A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"],
